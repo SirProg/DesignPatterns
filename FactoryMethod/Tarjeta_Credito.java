@@ -1,4 +1,4 @@
-package AbstractFactory;
+package FactoryMethod;
 
 public abstract class Tarjeta_Credito {
     private float costoAnual;

@@ -1,4 +1,4 @@
-package AbstractFactory;
+package FactoryMethod;
 
 public class Basica extends Tarjeta_Credito{
     @Override

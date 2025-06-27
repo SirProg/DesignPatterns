@@ -1,4 +1,4 @@
-package AbstractFactory;
+package FactoryMethod;
 
 public class Premium extends Tarjeta_Credito {
     

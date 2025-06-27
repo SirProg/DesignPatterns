@@ -1,4 +1,4 @@
-package AbstractFactory;
+package FactoryMethod;
 
 public class VIP extends Tarjeta_Credito {
 
