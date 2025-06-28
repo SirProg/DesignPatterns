@@ -8,7 +8,7 @@ public class Wire extends NotificationDecorator{
     }
     
     @Override
-    public String enviarNotificacion(String mensaje) {
+    public void enviarNotificacion(String mensaje) {
         super.enviarNotificacion(mensaje);
         mensaje = "Wire >> " + mensaje;
         System.out.println(mensaje);

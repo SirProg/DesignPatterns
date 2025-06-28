@@ -8,10 +8,9 @@ public class Signal extends NotificationDecorator{
     }
     
     @Override
-    public String enviarNotificacion(String mensaje) {
+    public void enviarNotificacion(String mensaje) {
         mensaje = "Signal >> " + mensaje;
         System.out.println(mensaje);
-        return mensaje;
     }
 
 }

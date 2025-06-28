@@ -10,7 +10,7 @@ public class NotificationDecorator implements Notification{
     }
 
     @Override
-    public String enviarNotificacion(String mensaje) {
-        return envoltorio.enviarNotificacion(mensaje);
+    public void enviarNotificacion(String mensaje) {
+        envoltorio.enviarNotificacion(mensaje);
     }
 }

@@ -8,10 +8,9 @@ public class Telegram extends NotificationDecorator{
     }
     
     @Override
-    public String enviarNotificacion(String mensaje) {
+    public void enviarNotificacion(String mensaje) {
         mensaje = "Telegram >> " + mensaje;
         System.out.println(mensaje);
-        return mensaje;
     }
 
 }

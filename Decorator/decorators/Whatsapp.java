@@ -8,10 +8,9 @@ public class Whatsapp extends NotificationDecorator{
     }
     
     @Override
-    public String enviarNotificacion(String mensaje) {
+    public void enviarNotificacion(String mensaje) {
         mensaje = "Whatsapp >> " + mensaje;
         System.out.println(mensaje);
-        return mensaje;
     }
 
 }
